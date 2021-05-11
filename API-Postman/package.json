@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.7"
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Node.js Restful crud API with node js , express ",
+  "main": "App.js",
+  "scripts": {
+    "start": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavedRaza/Node.git"
+  },
+  "keywords": [
+    "node.js",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "Javed Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavedRaza/Node/issues"
+  },
+  "homepage": "https://github.com/JavedRaza/Node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
