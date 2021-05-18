@@ -236,8 +236,23 @@
    <script>
     const currDate = document.getElementById("date");
     const weathercon = document.getElementById("weathercon");
-
     const tempStatus = document.getElementById("temp");
+    
+
+     
+    const temporgstatus =  "{%tempstat%}";
+    if(temporgstatus == "Clouds"){
+      weathercon.innerHTML = "<i class='fas fa-cloud' style='color: #7f8c8d'></i>"
+    } 
+    else if(temporgstatus == "Sunny"){
+      weathercon.innerHTML = "<i class='fas fa-sun' style='color: #eccc68'></i>"
+    } 
+    else if(temporgstatus == " Rainny"){
+      weathercon.innerHTML = "<i class='fas fa-sun' style='color: #eccc68'></i>"
+    } 
+    else{
+       weathercon.innerHTML = "<i class='fas fa-sun' style='color: #eccc68'></i>"
+    }
      const getCurrentDay = () =>{
        var days = ["Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat"];
        var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];                                                     
